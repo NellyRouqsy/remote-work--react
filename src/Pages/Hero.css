@@ -1,0 +1,33 @@
+hero{
+    display: flex;
+    justify-content: space-around;
+    .heroContent{
+        margin-top: 30px;
+        p{
+            margin-top: 60px;
+            width: 460px;  
+            font-size: 14px;
+            color: hsl(0, 0%, 41%);
+        }
+    }
+    h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 60px;
+    img{
+        height: 20px;
+        width: 70px;
+    }
+}
+.imgSize{
+    img{
+        width: 350px;
+        height: 450px;
+    }
+}
